@@ -131,7 +131,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: transparent;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -141,13 +141,11 @@ a:focus {
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
-  color: transparent;
   background-color: transparent;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
-  color: transparent;
   background-color: transparent;
 }
 .navbar-custom .nav li.active {

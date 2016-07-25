@@ -5,61 +5,13 @@
  */
 
 // jQuery to collapse the navbar on scroll
-
-// (function ($) {
-//   $(document).ready(function(){
-
-//     // hide .navbar first
-//     $(".navbar").hide();
-
-//     // fade in .navbar
-//     $(function () {
-//         $(window).scroll(function () {
-
-//                  // set distance user needs to scroll before we start fadeIn
-//             if ($(this).scrollTop() > 100) {
-//                 $('.navbar').fadeIn();
-//             } else {
-//                 $('.navbar').fadeOut();
-//             }
-//         });
-//     });
-
-// });
-//   }(jQuery));
-
-(function collapseNavbar() {
-  $(document).ready(function(){
-
-    // hide .navbar first
-    $(".navbar").hide();
-
-    // fade in .navbar
-    $(function () {
-        $(window).scroll(function () {
-
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(".navbar").offset().top > 50) {
-                $(".navbar-fixed-top").addClass("top-nav-collapse");
-            } else {
-                $(".navbar-fixed-top").removeClass("top-nav-collapse");
-            }
-        });
-    });
-
-});
-  }(jQuery));
-
-
-// function collapseNavbar() {
-//     $(".navbar").hide();
-
-//     if ($(".navbar").offset().top > 50) {
-//         $(".navbar-fixed-top").addClass("top-nav-collapse");
-//     } else {
-//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-//     }
-// }
+function collapseNavbar() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+}
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);

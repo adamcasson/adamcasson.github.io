@@ -28,15 +28,38 @@
 // });
 //   }(jQuery));
 
-function collapseNavbar() {
+(function collapseNavbar() {
+  $(document).ready(function(){
+
+    // hide .navbar first
     $(".navbar").hide();
 
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-}
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(".navbar").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+    });
+
+});
+  }(jQuery));
+
+
+// function collapseNavbar() {
+//     $(".navbar").hide();
+
+//     if ($(".navbar").offset().top > 50) {
+//         $(".navbar-fixed-top").addClass("top-nav-collapse");
+//     } else {
+//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+//     }
+// }
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);

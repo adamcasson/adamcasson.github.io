@@ -28,7 +28,7 @@ h6 {
   letter-spacing: 1px;
 }
 .blinking-cursor {
-  font-weight: 0;
+  font-weight: 10;
   font-size: 70px;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;

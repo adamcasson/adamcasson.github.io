@@ -29,7 +29,7 @@ h6 {
 }
 .blinking-cursor {
   font-weight: 10;
-  font-size: 70px;
+  font-size: 50px;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
@@ -203,7 +203,7 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 70px;
+    font-size: 50px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;

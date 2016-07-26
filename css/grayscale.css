@@ -216,9 +216,9 @@ a:focus {
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
+  margin-top: 100px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 0px solid white;
   border-radius: 100% !important;
   font-size: 40px;
   color: white;
@@ -231,7 +231,7 @@ a:focus {
 .btn-circle:focus {
   outline: none;
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.0);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;

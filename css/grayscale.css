@@ -196,6 +196,7 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
+  font-family: "Courier New";
   font-size: 40px;
 }
 .intro .intro-body .intro-text {

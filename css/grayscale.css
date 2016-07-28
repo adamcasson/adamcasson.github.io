@@ -313,19 +313,21 @@ a:focus {
     margin-top: 250px;
   }
 }
-.ritbutton {
-display: block;
-background:url(http://content.sportslogos.net/logos/33/5073/full/3372_rit_tigers-alternate-2007.png) center; 
-background-size: contain;
-width: 160px;
-height: 160px;
-padding: 10px;
-text-align: center;
-border-radius: 5px;
-transition: all 0.3s ease 0s;
-}
-.ritbutton:hover{
--webkit-filter: opacity(50%); filter: opacity(50%)
+@media (min-width: 767px){
+  .ritbutton {
+  display: block;
+  background:url(http://content.sportslogos.net/logos/33/5073/full/3372_rit_tigers-alternate-2007.png) center; 
+  background-size: contain;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+  }
+  .ritbutton:hover{
+  -webkit-filter: opacity(50%); filter: opacity(50%)
+  }
 }
 .btn {
   text-transform: uppercase;

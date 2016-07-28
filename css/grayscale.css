@@ -313,6 +313,17 @@ a:focus {
     margin-top: 250px;
   }
 }
+.ritButton{
+  background:url(http://content.sportslogos.net/logos/33/5073/full/3372_rit_tigers-alternate-2007.png) center; 
+  background-size: contain;
+  cursor:pointer;
+  width:160px;
+  height:160px;
+  transition: all 0.3s ease 0s;
+}
+.ritButton:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%)    
+}
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;

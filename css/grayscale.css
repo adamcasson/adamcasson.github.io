@@ -315,7 +315,7 @@ a:focus {
 }
 @media (min-width: 767px){
   .ritbutton {
-  display: block;
+  /*display: block;*/
   background:url(../img/ritlogo.png) center; 
   background-size: contain;
   width: 160px;
@@ -330,7 +330,7 @@ a:focus {
   -webkit-filter: opacity(50%); filter: opacity(50%)
   }
   .klabbutton {
-  display: block;
+  /*display: block;*/
   background:url(../img/klabLogo.png) center; 
   background-size: contain;
   width: 160px;
@@ -384,6 +384,37 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
+
+ul.edu-buttons{
+  margin-top: 0;
+}
+@media (max-width: 1199px) {
+  ul.edu-buttons {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  ul.edu-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.edu-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+/*ul.edu-buttons{
+  margin-top: 0;
+}
+@media (min-width: 767) {
+  ul.edu-buttons {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+}*/
+
+
 footer {
   padding: 50px 0;
 }

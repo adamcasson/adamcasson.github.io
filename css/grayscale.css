@@ -313,7 +313,7 @@ a:focus {
     margin-top: 250px;
   }
 }
-@media (min-width: 767px){
+@media (max-width: 4000px){
   .ritbutton {
   display: block;
   background:url(../img/ritlogo.png) center; 

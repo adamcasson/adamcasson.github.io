@@ -324,7 +324,7 @@ a:focus {
   /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease-in-out;
   }
   .ritbutton:hover{
   -webkit-filter: opacity(50%); filter: opacity(50%)
@@ -339,7 +339,7 @@ a:focus {
   /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease-in-out;
   }
   .klabbutton:hover{
   -webkit-filter: opacity(50%); filter: opacity(50%)
@@ -354,7 +354,7 @@ a:focus {
   /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease-in-out;
   }
   .shgbutton:hover{
   -webkit-filter: opacity(50%); filter: opacity(50%)

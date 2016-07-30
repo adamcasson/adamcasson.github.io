@@ -344,6 +344,21 @@ a:focus {
   .klabbutton:hover{
   -webkit-filter: opacity(50%); filter: opacity(50%)
   }
+  .shgbutton {
+  display: block;
+  background:url(../img/shglogo.png) center; 
+  background-size: contain;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: all 0.3s ease 0s;
+  }
+  .shgbutton:hover{
+  -webkit-filter: opacity(50%); filter: opacity(50%)
+  }
 }
 .btn {
   text-transform: uppercase;

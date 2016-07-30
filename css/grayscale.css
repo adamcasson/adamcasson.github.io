@@ -321,7 +321,7 @@ a:focus {
   width: 160px;
   height: 160px;
   padding: 10px;
-  text-align: center;
+  /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
   transition: all 0.3s ease 0s;
@@ -336,7 +336,7 @@ a:focus {
   width: 160px;
   height: 160px;
   padding: 10px;
-  text-align: center;
+  /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
   transition: all 0.3s ease 0s;
@@ -351,7 +351,7 @@ a:focus {
   width: 160px;
   height: 160px;
   padding: 10px;
-  text-align: center;
+  /*text-align: center;*/
   border-radius: 5px;
   border: 2px solid white;
   transition: all 0.3s ease 0s;

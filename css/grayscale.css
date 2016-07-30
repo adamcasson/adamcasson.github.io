@@ -27,6 +27,13 @@ h6 {
   color: #F8BB39;
   letter-spacing: 1px;
 }
+.orange {
+  text-transform: lowercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 0;
+  color: #FC803D;
+  letter-spacing: 1px;
+}
 .blinking-cursor {
   font-weight: 10;
   font-size: 50px;

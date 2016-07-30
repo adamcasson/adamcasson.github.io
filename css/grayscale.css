@@ -325,6 +325,7 @@ a:focus {
   border-radius: 5px;
   border: 2px solid white;
   transition: all 0.3s ease-in-out;
+  margin:0 auto;
   }
   .ritbutton:hover{
   -webkit-filter: opacity(50%); filter: opacity(50%)

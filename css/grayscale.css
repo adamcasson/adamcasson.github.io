@@ -346,24 +346,41 @@ a:focus {
   background-size: contain;
 }
 .eduButton-rit:hover {
-  -webkit-filter: opacity(50%); filter: opacity(50%)
+  -webkit-filter: opacity(50%); filter: opacity(50%);
 }
 .eduButton-klab {
   background:url(../img/klabLogo.png) center;
   background-size: contain;
 }
 .eduButton-klab:hover {
-  -webkit-filter: opacity(50%); filter: opacity(50%)
+  -webkit-filter: opacity(50%); filter: opacity(50%);
 }
 .eduButton-shg {
   background:url(../img/shglogo.png) center;
   background-size: contain;
 }
 .eduButton-shg:hover {
-  -webkit-filter: opacity(50%); filter: opacity(50%)
+  -webkit-filter: opacity(50%); filter: opacity(50%);
 }
 
+.skillsButton {
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+}
 
+.skillsButton-python{
+  background: url(../img/skills/python.png) center;
+  background-size: contain;
+}
+.skillsButton-python:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
 
 .btn {
   text-transform: lowercase;

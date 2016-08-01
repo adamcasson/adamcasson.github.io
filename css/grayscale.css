@@ -368,14 +368,14 @@ a:focus {
   width: 80px;
   height: 80px;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 2px solid white;
   transition: all 0.3s ease-in-out;
   margin: 0 auto;
 }
 
 .skillsButton-python{
-  background: url(../img/skills/python.png) center;
+  background: url(../img/skills/tensorflow.png) center;
   background-size: contain;
 }
 .skillsButton-python:hover {

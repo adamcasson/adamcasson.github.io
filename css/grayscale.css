@@ -332,7 +332,6 @@ a:focus {
 
 .eduButton {
   display: block;
-  background-size: contain;
   width: 160px;
   height: 160px;
   padding: 10px;
@@ -344,18 +343,21 @@ a:focus {
 
 .eduButton-rit {
   background:url(../img/ritlogo.png) center;
+  background-size: contain;
 }
 .eduButton-rit:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%)
 }
 .eduButton-klab {
   background:url(../img/klabLogo.png) center;
+  background-size: contain;
 }
 .eduButton-klab:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%)
 }
 .eduButton-shg {
   background:url(../img/shglogo.png) center;
+  background-size: contain;
 }
 .eduButton-shg:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%)

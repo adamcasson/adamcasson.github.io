@@ -375,10 +375,17 @@ a:focus {
 }
 
 .skillsButton-python{
-  background: url(../img/skills/tensorflow.png) center;
+  background: url(../img/skills/python.png) center;
   background-size: contain;
 }
 .skillsButton-python:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
+.skillsButton-cpp{
+  background: url(../img/skills/c++.png) center;
+  background-size: contain;
+}
+.skillsButton-cpp:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);
 }
 

@@ -413,6 +413,7 @@ a:focus {
 .skillsButton-css{
   background: url(../img/skills/css.png) center;
   background-size: contain;
+  margin-top: 40px;
 }
 .skillsButton-css:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);
@@ -420,6 +421,7 @@ a:focus {
 .skillsButton-tensorflow{
   background: url(../img/skills/tensorflow.png) center;
   background-size: contain;
+  margin-top: 40px;
 }
 .skillsButton-tensorflow:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);
@@ -427,6 +429,7 @@ a:focus {
 .skillsButton-latex{
   background: url(../img/skills/latex.png) center;
   background-size: contain;
+  margin-top: 40px;
 }
 .skillsButton-latex:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);

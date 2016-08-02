@@ -388,6 +388,13 @@ a:focus {
 .skillsButton-cpp:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);
 }
+.skillsButton-matlab{
+  background: url(../img/skills/matlab.png) center;
+  background-size: contain;
+}
+.skillsButton-matlab:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
 
 .btn {
   text-transform: lowercase;

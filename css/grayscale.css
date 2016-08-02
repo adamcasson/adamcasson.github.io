@@ -395,6 +395,41 @@ a:focus {
 .skillsButton-matlab:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);
 }
+.skillsButton-opencv{
+  background: url(../img/skills/opencv.png) center;
+  background-size: contain;
+}
+.skillsButton-opencv:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
+.skillsButton-html{
+  background: url(../img/skills/html.png) center;
+  background-size: contain;
+}
+.skillsButton-html:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
+.skillsButton-css{
+  background: url(../img/skills/css.png) center;
+  background-size: contain;
+}
+.skillsButton-css:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
+.skillsButton-tensorflow{
+  background: url(../img/skills/tensorflow.png) center;
+  background-size: contain;
+}
+.skillsButton-tensorflow:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
+.skillsButton-latex{
+  background: url(../img/skills/latex.png) center;
+  background-size: contain;
+}
+.skillsButton-latex:hover {
+  -webkit-filter: opacity(50%); filter: opacity(50%);
+}
 
 .btn {
   text-transform: lowercase;

@@ -369,7 +369,7 @@ a:focus {
   height: 80px;
   padding: 10px;
   border-radius: 3px;
-  border: 2px solid white;
+  border: 2px solid #F8BB39;
   transition: all 0.3s ease-in-out;
   margin: 0 auto;
 }
@@ -408,7 +408,7 @@ a:focus {
   margin-top: 40px;
 }
 .skillsButton-html:hover {
-  -webkit-filter: opacity(50%); filter: opacity(50%);
+  background-color: #F8BB39
 }
 .skillsButton-css{
   background: url(../img/skills/css.png) center;

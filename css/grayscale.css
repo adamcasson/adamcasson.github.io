@@ -403,12 +403,19 @@ a:focus {
   -webkit-filter: opacity(50%); filter: opacity(50%);
 }
 .skillsButton-html{
-  background: url(../img/skills/html.png) center;
+  position: relative;
+  background: rgba(0,0,0,0) url(../img/skills/html.png) center;
   background-size: contain;
   margin-top: 40px;
 }
 .skillsButton-html:hover {
   background-color: #F8BB39
+}
+.boo:before {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
 }
 .skillsButton-css{
   background: url(../img/skills/css.png) center;

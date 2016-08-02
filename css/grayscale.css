@@ -405,7 +405,7 @@ a:focus {
 .skillsButton-html{
   background: url(../img/skills/html.png) center;
   background-size: contain;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .skillsButton-html:hover {
   -webkit-filter: opacity(50%); filter: opacity(50%);

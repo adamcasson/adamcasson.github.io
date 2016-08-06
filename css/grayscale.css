@@ -411,7 +411,7 @@ a:focus {
 .skillsButton-html:hover {
   background-color: #F8BB39
 }
-.boo:before {
+.skillsButton-html:before {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   background-color: inherit;

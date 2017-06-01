@@ -33,6 +33,11 @@ h6 {
   color: #FC803D;
   letter-spacing: 1px;
 }
+
+.text-mute{
+  color: rgba(255,255,255,0.5);
+}
+
 p.marg {
   margin: 20px 0 0;
 }

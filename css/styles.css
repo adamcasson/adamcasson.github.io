@@ -3,3 +3,18 @@ input, textarea, button{
 	/*display: inline-block;*/
 	vertical-align: top;
 }
+
+h1,h2{
+	/*font-family: 'Playfair Display', Georgia, serif;*/
+	/*font-size: 40px;*/
+	/*background-color: #E5586D;*/
+	font-style: italic;
+}
+
+.content-section-md {
+  padding-top: 150px;
+}
+
+.content-section-sm {
+  padding-top: 50px;
+}

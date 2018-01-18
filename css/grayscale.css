@@ -436,7 +436,7 @@ a:focus {
   border: 2px solid #f1f1f1;
   text-align: center;
 }
-.timeline > li .timeline-rit, .timeline > li .timeline-klab, .timeline > li .timeline-shg {
+.timeline > li .timeline-rit, .timeline > li .timeline-klab, .timeline > li .timeline-shg, .timeline > li .timeline-nbc {
   left: 0;
   margin-left: 0;
   width: 80px;
@@ -462,7 +462,10 @@ a:focus {
   background:url(../img/shglogo.png) center;
   background-size: contain;
 }
-
+.timeline > li .timeline-nbc {
+  background:url(../img/nbclogo.png) center;
+  background-size: contain;
+}
 
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -549,6 +552,14 @@ a:focus {
     background:url(../img/shglogo.png) center;
     background-size: contain;
   }
+  .timeline > li .timeline-nbc {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    left: 50%;
+    background:url(../img/nbclogo.png) center;
+    background-size: contain;
+  }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
     margin-top: 16px;
@@ -593,7 +604,7 @@ a:focus {
     height: 170px;
     margin-left: -85px;
   }
-  .timeline > li .timeline-rit, .timeline > li .timeline-klab, .timeline > li .timeline-shg {
+  .timeline > li .timeline-rit, .timeline > li .timeline-klab, .timeline > li .timeline-shg, .timeline > li .timeline-nbc {
     width: 120px;
     height: 120px;
     margin-left: -60px;
@@ -612,7 +623,11 @@ a:focus {
     background:url(../img/shglogo.png) center;
     background-size: contain;
   }
-  .timeline > li .timeline-rit:hover, .timeline > li .timeline-klab:hover, .timeline > li .timeline-shg:hover {
+  .timeline > li .timeline-nbc {
+    background:url(../img/nbclogo.png) center;
+    background-size: contain;
+  }
+  .timeline > li .timeline-rit:hover, .timeline > li .timeline-klab:hover, .timeline > li .timeline-shg:hover, .timeline > li .timeline-nbc:hover {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
   }
